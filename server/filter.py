@@ -27,6 +27,7 @@ __date__ = "$Date$"
 __copyright__ = "Copyright (c) 2004 Cyril Jaquier"
 __license__ = "GPL"
 
+from failmanager import FailManagerEmpty
 from failmanager import FailManager
 from ticket import FailTicket
 from jailthread import JailThread
